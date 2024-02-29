@@ -2,8 +2,8 @@ package com.example
 
 import android.app.Application
 import android.content.Context
+import android.os.Handler
 import android.os.Looper
-import java.util.logging.Handler
 
 class MyApplication : Application() {
     companion object{
@@ -12,7 +12,7 @@ class MyApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         context = applicationContext
-        android.os.Handler(mainLooper).post {
+/*        Handler(mainLooper).post {
             Runnable {
                 kotlin.run {
                     try {
@@ -22,6 +22,6 @@ class MyApplication : Application() {
                     }
                 }
             }
-        }
+        }*/
     }
 }
