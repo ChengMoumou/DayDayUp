@@ -1,6 +1,5 @@
 package com.example.daydayup.network
 
-import com.example.daydayup.model.WeatherReq
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
